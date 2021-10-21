@@ -80,7 +80,7 @@ p {
   .header .menu {
     clear: both;
     max-height: 0;
-    transition: max-height .2s ease-out;
+    transition: .2s ease-out;
   }
   
   .header .menu-icon {
@@ -239,15 +239,19 @@ main {
 .text {
     padding: 30px;
     width: 90%;
+    max-height: 100px;
+    font-size: 13px;
     margin: 0 auto;
 }
 
 .button-wrapper {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .button-wrapper button {
+    
     width: 100px;
     height: 30px;
     background-color: orange;
